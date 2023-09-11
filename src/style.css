@@ -87,15 +87,16 @@ body {
   align-items: center;
   justify-content: flex-end;
   flex-shrink: 0;
-  height: 3.125rem;
+  height: 3rem;
   padding: 0 1rem;
   background: rgba(44, 44, 44, 0.5);
+  box-shadow: 5px 0 5px rgba(0, 0, 0, 0.75);
 }
 
 .contacts-widget-content {
   flex-grow: 1;
   overflow: auto;
-  margin-top: 0.25rem;
+  margin-top: 0.125rem;
 }
 
 .contacts-list {
@@ -135,7 +136,7 @@ body {
 
 .contact-item-name {
   position: relative;
-  grid-column: span 4 /span 4;
+  grid-column: span 4;
   padding-left: 1.125rem;
   padding-right: 0.5rem;
 }
@@ -156,7 +157,7 @@ body {
 
 .contact-item-info {
   position: relative;
-  grid-column: span 7 /span 7;
+  grid-column: span 7;
   padding-left: 1rem;
   padding-right: 1.125rem;
 }
